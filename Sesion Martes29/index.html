@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Title</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script src="script.js"></script>
+        <style>
+         table, th, td {
+           border : 1px solid black;
+        }
+        </style>
+    </head>
+    <body>
+        <h1 class="title">Hello World</h1>
+        
+        <h2>Etiqueta H2</h2>
+        <h3>Etiqueta H3</h3>
+        <h4>Etiqueta H4</h4>
+        <h5>Etiqueta H5</h5>
+        <h6>Etiqueta H6</h6>
+        
+        <p>Esto es un parrafo</p>
+        
+     <a href="nosotros.html" target="_parent"> nosotros </a>
+        <img alt="logo ecotec" width="90%" src="img/logotipo Ecotec.png">
+        
+        <!--Lista Ordenadas-->
+        <ol type="A">
+            <li> Crear un archivo</li>
+            <li> Escribir un código </li>
+            <li> Hacer un debug </li>
+        </ol>
+        <!--Listas desordenadas--> 
+        <ul style="list-style-type: square">
+        <li>Inicio</li>
+        <li>levantamiento de información</li>
+        <li>Desarrollo</li>
+        <li>Análisis</li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        </ul>   
+        
+        <!--Tabla-->
+        
+        <table>
+            <caption>Lista Clientes</caption>
+            <tr>
+                <th>Nombres</th>
+                <th>correo</th>
+                <th>Direccion</th>
+            </tr>
+            <tr>
+                <td>Juan</td>
+                <td>Juan@tec.ec</td>
+                <td>Guayaquil</td>
+            </tr>
+            <tr>
+                <td>Walter</td>
+                <td>Walter@tec.ec</td>
+                <td>Esmeraldas</td>
+            </tr>
+        </table>
+        <!--Cita extensa-->
+        <blockquote>
+        <p>Texto Citado en una Obra</p>
+        </blockquote>
+        
+        <!--Cita corta en un párrafo-->
+        <p>
+        El profesor dijo <q> HTML estructura de contenido</q>
+        </p>
+        <!--identifica el titulo de la obra citada-->
+        <p>
+        Puedes consultar <cite> GUIA HTML</cite>
+        </p>
+        
+        <!--FORMULARIOS-->
+        <form>
+            <label for="nombre"> Nombre: </label>
+            <input type="text" name="nombres" id="nombre"><br>
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" name="apellidos"  id="apellidos"><br>
+            <label for="apellidos">Correo:</label>
+            <input type="email"><br>
+            <label for="Telefono:">Telefono</label>
+            <input type="Tel"><br>
+            
+        </form>
+        <!--Fin de formulario-->
+        
+        
+        <!--TENER MAS DE 2 ETIQUETAS H1 ES MALA PRÁCTICA-->
+       <!-- <h1>Otro titulo</h1>
+        <h1>Otro titulo</h1>
+        <h1>Otro titulo</h1>-->
+        <!--CREAR ETIQUETA ES MALA PRÁCTICA-->
+     <!--<gc> ESTA ES UNA ETIQUETA CREADA</gc>-->
+     
+        
+        
+        <br />
+        <button onclick="buttonClicked()">Click me</button>
+    </body>
+</html>
